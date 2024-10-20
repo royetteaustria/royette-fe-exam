@@ -28,10 +28,10 @@
     flex-direction: column;
     height: 1px;
     background-color: transparent; 
-    border: none; /* Walang pagbabago */
-    cursor: pointer; /* Walang pagbabago */
-    margin: 0; /* Siguraduhing walang margin sa paligid */
-    padding: 0; /* Walang padding */
+    border: none; 
+    cursor: pointer; 
+    margin: 0; 
+    padding: 0;
     padding-right: 9px;
 }
 

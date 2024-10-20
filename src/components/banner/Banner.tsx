@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 import { carouselSettings } from "../../carouselSettings/carouselSettings";
 import { Images } from "./images";
-import bellIcon from '../../assets/svg/banner/banner.svg'
+import bellIcon from '../../assets/svg/banner/Bell.svg'
 const Banner = () => {
   return (
     <>
