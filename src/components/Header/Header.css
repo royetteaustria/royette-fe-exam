@@ -1,0 +1,58 @@
+.app-header {
+    flex: 0 0 auto;
+    height: 56px;
+    padding: 0 16px;
+    background: white;
+    box-shadow: 0 0.5px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .app-header .button {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .app-header .button .logo {
+    height: 30px;
+    width: 70.43px;
+  }
+  .app-header .button .menu {
+    height: 16px;
+    width: 16px;
+  }
+  
+  .left-section .wallet {
+    height: 18.9px;
+    width: 18px;
+  }
+  
+  .left-section .balance {
+    font-weight: bold;
+    color: #00A6FF;
+    border-right: 1px solid;
+    border-image: linear-gradient(to bottom, #00A6FF00, #00A6FF, #00A6FF00) 1;
+    padding-right: 5px;
+  }
+  
+  .app-header img {
+    height: 24px;
+    width: auto;
+  }
+  
+  .left-section {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .left-section .profile{
+    height: 24px;
+    width: 24px;
+  }
+
+  .logo {
+    height: 2px;
+    width: 92.43px;
+  }

@@ -1,0 +1,62 @@
+.icon-bar {
+    flex: 0 0 70px;
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
+    padding: 8px 0;
+    height: 60px;
+  }
+  
+  .icon-bar a {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #666;
+    font-size: 1.1rem;
+    gap: 4px;
+    text-decoration: none;
+  }
+  
+  .icon-bar a img {
+    width: 22px;
+    height: 22px;
+    margin-bottom: 4px;
+  }
+  
+  .icon-bar i {
+    font-size: 2rem;
+    color: #666;
+    margin-bottom: 4px;
+  }
+
+  .icon-bar li {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #666;
+    font-size: 1.1rem;
+    gap: 4px;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .icon-bar li.active {
+    color: #007bff;
+  }
+  
+  .icon-bar li.active i {
+    color: #007bff;
+  }
+  
+
+  li {
+    text-decoration: none;
+    color: inherit;
+  }

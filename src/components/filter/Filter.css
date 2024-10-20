@@ -1,0 +1,109 @@
+.filter {
+    flex: 0 0 auto;
+    height: auto;
+    flex-direction: column;
+    background: white;
+    padding: 1 1px;
+    display: flex;
+    align-items: center;
+
+}
+
+.header-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center align */
+    margin: 5px;
+    width: 350px;
+    padding: 2px 4px; /* Combine padding for cleaner code */
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.searchFilter {
+    position: relative; /* Make the container position relative */
+    flex-grow: 1; /* Allows the search bar to fill available space */
+    margin-right: 8px; /* Adds space between search bar and FILTER text */
+}
+
+.searchFilter input {
+    width: 100%; /* Ensures the input fills the searchFilter div */
+    height: 35px;
+    border: 1px solid #ccc; /* Example border, adjust as needed */
+    border-radius: 4px; /* Optional: rounded corners */
+    padding: 9px 20px 9px 40px; /* Add padding to make room for the icon */
+}
+
+.searchFilter::before {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E");
+    position: absolute;
+    left: 10px; /* Position the icon inside the input */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+img.p-1 {
+    padding: 1px;
+    border: 1px solid;
+}
+
+.game-provider-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 290px;
+    
+}
+.game-provider-header img {
+    transition: all 0.2s ease-in-out;
+}
+
+.game-provider-header {
+    text-color: #444444;
+}
+
+.provider {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 390px;
+    gap: 10px;
+    padding: 3px;
+    margin: 0;
+}
+
+@media (min-width: 320px) {
+    .provider {
+        width: 100%;
+    }
+}
+
+.card-provider {
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+
+    border-radius: 10px;
+    display: flex;           /* Add this */
+    justify-content: center; /* Add this */
+    align-items: center;     /* Add this */
+    overflow: hidden;        /* Add this */
+}
+
+.card-provider img {
+    width: 100%;            /* Add this */
+    height: 100%;           /* Add this */
+    object-fit: contain;    /* Add this */
+    padding: 0px;          /* Add this for some padding if needed */
+}
+
+.provider {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%; /* Use 100% to fill available space */
+    max-width: 390px; /* Or any max width you desire */
+    gap: 10px;
+    padding: 3px;
+    margin: 0;
+}

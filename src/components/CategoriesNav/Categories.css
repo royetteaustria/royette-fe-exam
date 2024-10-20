@@ -1,0 +1,88 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 60px;
+    padding: 3px 2px;
+    margin: 2px;
+    margin-right: 5px;
+}
+
+.search-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    height: 40px;
+    padding: 1px 0px;
+    text-color: #888888;
+    border-right: 2px solid rgba(136, 136, 136, 0.5);
+    
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 1px;
+    background-color: transparent; 
+    border: none; /* Walang pagbabago */
+    cursor: pointer; /* Walang pagbabago */
+    margin: 0; /* Siguraduhing walang margin sa paligid */
+    padding: 0; /* Walang padding */
+    padding-right: 9px;
+}
+
+.search-button img {
+    margin: 0; /* Alisin ang margin para sa icon */
+    width: 24px; /* I-set ang laki ng icon kung kinakailangan */
+    height: 24px;
+    margin-top: 12px; /* I-set ang laki ng icon kung kinakailangan */
+}
+
+.search-button span {
+    margin-top: 2px;
+}
+
+
+.categories {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 5px;
+    overflow-y: hidden;
+    flex-wrap: wrap;
+}
+
+.categories ul {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.categories li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+.categories img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 3px;
+}
+
+.categories::-webkit-scrollbar {
+    display: none;
+}

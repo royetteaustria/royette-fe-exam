@@ -1,0 +1,61 @@
+.carousel {
+    display: block;
+    position: relative;
+    border-radius: 10px;
+}
+
+.carousel img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.description {
+    display: block;
+    position: relative;
+    width: 100%; 
+    max-width: 360px;
+    padding: 0px;
+    margin-top: -20px;
+    overflow: visible; 
+}
+
+.description h2 {
+    color: #00A6FF;
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    font-size: 14px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-shrink: 1; 
+    padding-right: 15px; 
+}
+
+
+@media (max-width: 350px) and (min-width: 320px) {
+    .description h2 {
+        font-size: 12px; 
+        white-space: nowrap; 
+        text-overflow: ellipsis; 
+        padding-right: 10px; 
+    }
+}
+
+@media (max-width: 320px) {
+    .description h2 {
+        font-size: 11px; /* Further reduce font size for very small screens */
+    }
+
+    .carousel img {
+        height: 160px; /* Adjust image height for smaller screens */
+    }
+}
+
+.description h2 img {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+}
