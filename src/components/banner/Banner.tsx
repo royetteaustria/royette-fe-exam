@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 import { carouselSettings } from "../../carouselSettings/carouselSettings";
 import { Images } from "./images";
-import bell from '../../assets/svg/Banner/Bell.svg'
+import bellIcon from '../../assets/svg/banner/banner.svg'
 const Banner = () => {
   return (
     <>
@@ -19,7 +19,7 @@ const Banner = () => {
       </div>
       <div className="description">
       <h2 className="sm:text-xs">
-          <img src={bell} alt="bell icon" />
+          <img src={bellIcon} alt="bell icon" />
           ¡FELICIDADES artxxxxipa! GANADOR DESTACADO
         </h2>
       </div>
