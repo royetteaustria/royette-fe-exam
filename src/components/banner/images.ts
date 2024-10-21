@@ -1,6 +1,6 @@
-import hero from "../../assets/image/banner/Image1.png";
-import image2 from "../../assets/image/Banner/banner.jpg";
-import image3 from "../../assets/image/Banner/Image3.jpg";
+import hero from './assets/banner.jpg'
+import image2 from './assets/Image1.png'
+import image3 from './assets/Image3.jpg'
 
 export const Images = [
     {
